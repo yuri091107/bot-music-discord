@@ -95,7 +95,7 @@ Verify Installation:
 - !resume: Resume the paused song.
 - !stop: Stop the current song.
 - !skip: Skip to the next song in the queue.
-- !swap: <YouTube URL or Spotify URL or song number>: Swap the current song with a specific song.
+- !swap: <YouTube URL or Spotify URL or song number> Swap the current song with a specific song.
 
 # Running The Bot:
 - Replace 'YOUR_BOT_TOKEN', 'YOUR_SPOTIPY_CLIENT_ID', and 'YOUR_SPOTIPY_CLIENT_SECRET' with your actual bot token and Spotify API credentials in the code. Then, run the bot with:

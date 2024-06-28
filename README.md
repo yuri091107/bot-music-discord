@@ -41,6 +41,15 @@ You can install the required Python libraries using `pip`. Open your terminal or
 pip install discord.py yt-dlp spotipy
 
 
+
+
+
+
+
+
+
+
+
 ### Step 2: Install FFmpeg
 
 FFmpeg is a powerful multimedia framework used to handle audio and video files. Follow these steps to install FFmpeg:

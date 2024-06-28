@@ -16,8 +16,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 music_queue = deque()
 
 # Configurações do Spotify
-SPOTIPY_CLIENT_ID = '6fa0caa652e74c09b1523c0980f62be2'
-SPOTIPY_CLIENT_SECRET = 'ebaff11b9b7249ed9c58bc25e973c495'
+SPOTIPY_CLIENT_ID = 'YOUR_SPOTIPY_CLIENT_ID'
+SPOTIPY_CLIENT_SECRET = 'YOUR_SPOTIPY_CLIENT_SECRET'
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET))
 
 @bot.event

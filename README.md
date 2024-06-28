@@ -90,7 +90,7 @@ Verify Installation:
 # Bot Commands:
 - !join: Join the voice channel of the user.
 - !leave: Leave the current voice channel.
-- !play: <URL or search query>: Play a song from YouTube or Spotify.
+- !play: <URL or search query> Play a song from YouTube or Spotify.
 - !pause: Pause the current song.
 - !resume: Resume the paused song.
 - !stop: Stop the current song.

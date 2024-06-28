@@ -196,4 +196,4 @@ async def swap(ctx, query: str):
         await ctx.send(f"Ocorreu um erro ao tentar processar sua escolha: {str(e)}")
         print(f"Erro: {str(e)}")
 
-bot.run('MTI1NTU3Njk0MTcwOTM2NTQxOA.GZH9gf.vcMjEEQhiVbiHQtEL3QavFhhuATHu-inC-RHAU')  # Substitua 'YOUR_BOT_TOKEN' pelo seu token de bot real
+bot.run('YOUR_BOT_TOKEN')  # Substitua 'YOUR_BOT_TOKEN' pelo seu token de bot real

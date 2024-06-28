@@ -24,8 +24,10 @@ Python’s regular expression library used for pattern matching in strings.
 Installation Instructions
 Step 1: Install Python Libraries
 You can install the required Python libraries using pip. Open your terminal or command prompt and run the following command:
-pip install discord.py yt-dlp spotipy
 
+bash
+Copiar código
+pip install discord.py yt-dlp spotipy
 Step 2: Install FFmpeg
 FFmpeg is a powerful multimedia framework used to handle audio and video files. Follow these steps to install FFmpeg:
 
@@ -53,10 +55,14 @@ For macOS:
 Install Homebrew (if not already installed):
 
 Open the Terminal app and paste the following command:
+bash
+Copiar código
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 Install FFmpeg:
 
 Run the following command in the Terminal:
+bash
+Copiar código
 brew install ffmpeg
 Verify Installation:
 
@@ -65,6 +71,8 @@ For Linux:
 Install FFmpeg:
 
 Open your terminal and run the following commands based on your distribution:
+bash
+Copiar código
 sudo apt update
 sudo apt install ffmpeg
 Verify Installation:
@@ -82,5 +90,6 @@ Bot Commands
 Running the Bot
 Replace 'YOUR_BOT_TOKEN', 'YOUR_SPOTIPY_CLIENT_ID', and 'YOUR_SPOTIPY_CLIENT_SECRET' with your actual bot token and Spotify API credentials in the code. Then, run the bot with:
 
-python:
+python
+Copiar código
 bot.run('YOUR_BOT_TOKEN')
